@@ -33,14 +33,13 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui
 
 #add for opencv by Henry
-#/home/work/videoImageDisplay/build-videoImageDisplay-ztboxV3_arm-Debug/videoImageDisplay
-INCLUDEPATH+=/root/work/implant/opencv-3.2.0/_install/include \
-            /root/work/implant/opencv-3.2.0/_install/include/opencv \
-            /root/work/implant/opencv-3.2.0/_install/include/opencv2
+#INCLUDEPATH+=/root/work/implant/opencv-3.2.0/_install/include \
+#            /root/work/implant/opencv-3.2.0/_install/include/opencv \
+#            /root/work/implant/opencv-3.2.0/_install/include/opencv2
 
-LIBS +=     /root/work/implant/opencv-3.2.0/_install/lib/libopencv_highgui.so \
-            /root/work/implant/opencv-3.2.0/_install/lib/libopencv_core.so    \
-            /root/work/implant/opencv-3.2.0/_install/lib/libopencv_imgproc.so   \
-            /root/work/implant/opencv-3.2.0/_install/lib/libopencv_imgcodecs.so \
-            /root/work/implant/opencv-3.2.0/_install/lib/libopencv_videoio.so
+#LIBS +=     /root/work/implant/opencv-3.2.0/_install/lib/libopencv_highgui.so \
+#            /root/work/implant/opencv-3.2.0/_install/lib/libopencv_core.so    \
+#            /root/work/implant/opencv-3.2.0/_install/lib/libopencv_imgproc.so   \
+#            /root/work/implant/opencv-3.2.0/_install/lib/libopencv_imgcodecs.so \
+#            /root/work/implant/opencv-3.2.0/_install/lib/libopencv_videoio.so
 #added end

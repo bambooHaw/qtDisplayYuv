@@ -19,17 +19,14 @@
 
 #define FLAG_USING_OPENCV 0
 #if (1 == FLAG_USING_OPENCV)
+//please modified the .pro file first for the openCv compiling env(such as: INCLUDEPATH & LIBS)
 #include <opencv2/opencv.hpp>
 using namespace cv;
 #endif
 
 using namespace std;
-//for test
-#include <opencv2/opencv.hpp>
-using namespace cv;
-//test end
 
-#define APP_VERSION         "V0.1.1"
+#define APP_VERSION         "V0.1.2"
 
 #define VIDEO_DEVICE        "/dev/video0"
 //0 -> csi0:vip0； 1 -> csi0: vip1

@@ -1,3 +1,6 @@
+### 20190110
+annotate the opencv head file for getting rid of the openCv libs' dependency
+
 ### key points
 1. v4l2 ioctrl
 2. mmap
